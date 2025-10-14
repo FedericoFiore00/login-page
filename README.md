@@ -28,8 +28,8 @@ La card bianca scorre **da sinistra a destra** su click, restando **sopra** la b
 
 ## ▶️ Avvio rapido
 1) Clona il repo
-git clone <URL_DEL_REPO>
-cd <NOME_REPO>
+git clone https://github.com/FedericoFiore00/login-page
+cd login-page
 
 2) Apri index.html nel browser (pagina statica).
 
@@ -37,7 +37,7 @@ cd <NOME_REPO>
 - Settings → Pages
 - Source: Deploy from a branch
 - Branch: main (root)
-- Salva → URL: https://<utente>.github.io/<repo>
+- Salva → URL: https://github.com/FedericoFiore00/login-page
 
 ## 🧩 Come funziona lo switch Login/Sign up
 - La blackCard contiene due pannelli:
