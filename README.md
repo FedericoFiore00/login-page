@@ -19,11 +19,7 @@ La card bianca scorre **da sinistra a destra** su click, restando **sopra** la b
 - CSS (Grid + Flex, custom properties per larghezze, focus ring)
 - JS (solo per togglare la classe `.is-signup`)
 
-## 📁 Struttura
-/
-├─ index.html
-├─ style.css
-├─ font.css
+
 
 
 ## ▶️ Avvio rapido
