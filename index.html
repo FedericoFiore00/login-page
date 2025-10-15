@@ -6,9 +6,12 @@
     <title>login page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="sign_up.css">
+    
 </head>
-<header>
-    <div class="box">
+<body>
+    <header class="box">
          <div class="blackCard">
             <div class="loginAccount">
                 <h3>Have an Account?</h3>
@@ -20,23 +23,24 @@
             </div>
             
         </div>
-        <div class="whiteCard"> <!-- white card -->
-            <div class="login"> <!-- card login -->
+        <div class="whiteCard"> 
+             <!-- <div class="login"> 
                 <h1>LOG IN</h1>
                 <input type="email" class="loginEmail" placeholder="E-mail or username">
                 <input type="password" class="loginPass" placeholder="Password">
                 <a href="#" class="forgot">Forgot <br>password?</a>
-                <button class="buttonWhite">LOG IN</button>
-            </div>
-            <!-- <div class="signUp"> 
+                <button class="buttonWhitelog">LOG IN</button>
+            </div>  -->
+             <div class="signUp"> 
                 <h2>SIGN UP</h2>
-                <input type="username">
-                <input type="e-mail">
-                <input type="password">
-                <button class="buttonWhite">SIGN UP</button>
-            </div>         -->       
+                <input type="text" class="signName" placeholder="name">
+                <input type="e-mail" class="signEmail" placeholder="E-mail">
+                <input type="password" class="signPass" placeholder="password">
+                <button class="buttonWhitesign">SIGN UP</button>
+            </div>              
         </div>
        
-    </div>
+    </header>
+    <script src="app.js"></script>
 </body>
 </html>
