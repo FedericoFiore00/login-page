@@ -1,3 +1,20 @@
+.buttonWhitelog .loader,
+.buttonWhitesign .loader {
+  display: none;
+}
+.buttonWhitelog .buttonText,
+.buttonWhitesign .buttonText {
+  display: inline;
+}
+.loader {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border-top: 3px solid #f3f2f7;
+  border-right: 3px solid transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
 body , html{  /* colore sfondo */
     background: linear-gradient(135deg, #e0e0e0, #f2f2f2);
     background-repeat: no-repeat;
@@ -66,7 +83,22 @@ body , html{  /* colore sfondo */
     width: 120px;
 }
 
+.box.is-signup .whiteCard {
+    transform: translateX(150px);
+}
 
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 
+.buttonText {
+  transition: opacity 0.2s ease;
+}
 
 
 

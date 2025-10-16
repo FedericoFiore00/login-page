@@ -1,5 +1,11 @@
 
-.signUp{
+.box:not(.is-signup) .signUp {
+    display: none; 
+}  
+.box.is-signup .login  { 
+    display: none;
+}
+.box.is-signup .signUp{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: auto;
@@ -7,11 +13,21 @@
     grid-row-gap: 12px;
 }
 
-.signUp h2{ grid-area: 1 / 1 / 2 / 4; }
-.signName { grid-area: 2 / 1 / 3 / 7; }
-.signEmail { grid-area: 3 / 1 / 4 / 7; }
-.signPass { grid-area: 4 / 1 / 5 / 7; }
-.buttonWhitesign{ grid-area: 5 / 4 / 6 / 7; }
+.signUp h2{ 
+    grid-area: 1 / 1 / 2 / 4; 
+}
+.signName { 
+    grid-area: 2 / 1 / 3 / 7;
+}
+.signEmail {
+    grid-area: 3 / 1 / 4 / 7;
+}
+.signPass {
+    grid-area: 4 / 1 / 5 / 7;
+}
+.buttonWhitesign{
+    grid-area: 5 / 4 / 6 / 7;
+}
 
 .buttonWhitesign {
     margin-top: 10px;
