@@ -13,7 +13,23 @@ btnLogin.addEventListener('click', () => {
     box.classList.remove('is-signup');
 });
 
+function startLoading(button) {
+    if (!button) return;
+    button.classList.add('loading');
+}
+
+function stopLoading(button) {
+    if (!button) return;
+    button.classList.remove('loading');
+}
+
 btnsubmitLogIn.addEventListener('click', () => {
-    console.log('Log In button clicked');
+    startLoading(btnsubmitLogIn);
+    setTimeout(() => stopLoading(btnsubmitLogIn), 1500);
+});
+
+btnsubmitsign.addEventListener('click', () => {
+    startLoading(btnsubmitsign);
+    setTimeout(() => stopLoading(btnsubmitsign), 1500);
 });
 

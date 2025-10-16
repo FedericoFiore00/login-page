@@ -6,6 +6,20 @@
 .buttonWhitesign .buttonText {
   display: inline;
 }
+
+.buttonWhitelog.loading,
+.buttonWhitesign.loading {
+  pointer-events: none;
+  opacity: 0.9;
+}
+.buttonWhitelog.loading .loader,
+.buttonWhitesign.loading .loader {
+  display: inline-block;
+}
+.buttonWhitelog.loading .buttonText,
+.buttonWhitesign.loading .buttonText {
+  display: none;
+}
 .loader {
   width: 22px;
   height: 22px;
@@ -15,7 +29,7 @@
   box-sizing: border-box;
   animation: rotation 1s linear infinite;
 }
-body , html{  /* colore sfondo */
+body , html{  
     background: linear-gradient(135deg, #e0e0e0, #f2f2f2);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -24,7 +38,7 @@ body , html{  /* colore sfondo */
     font-family: "Montserrat";
 }
 
-.box{ /* altezza, grid di black e white */
+.box{ 
     height: 90vh;
     display: grid; 
     place-items:center;
@@ -35,8 +49,8 @@ body , html{  /* colore sfondo */
 .whiteCard { 
   grid-area: 1 / 1; 
 }
-/* white card */
-.whiteCard { /* colore, dimensione , posizione*/
+
+.whiteCard { 
     background-color: #fafafa;
     width: 300px;
     height: 300px;
@@ -49,12 +63,12 @@ body , html{  /* colore sfondo */
     
 }
 
-.whiteCard.right { /* sposta a destra */
+.whiteCard.right { 
   transform: translateX(150px);
 }
 
-/* black card */
-.blackCard{ /* colore, dimensione , posizione*/
+
+.blackCard{ 
     background: linear-gradient(135deg, #2e2e2e, #3c3c3c);
     width: 600px;
     height: 250px;
