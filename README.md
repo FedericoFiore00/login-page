@@ -17,7 +17,7 @@ La card bianca scorre **da sinistra a destra** su click, restando **sopra** la b
 ## 🔧 Tech stack
 - HTML semantico (label + autocomplete)
 - CSS (Grid + Flex, custom properties per larghezze, focus ring)
-- JS (solo per togglare la classe `.is-signup`)
+- JS (per spostare la card bianca e il loader)
 
 
 
