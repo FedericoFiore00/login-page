@@ -1,4 +1,4 @@
-# 🍷 Cantina Vino - Login Page
+#  Login Page
 
 Una elegante pagina di login con design moderno e animazioni fluide. La card bianca scorre sopra il pannello scuro per passare tra login e registrazione, con stati di loading interattivi.
 
